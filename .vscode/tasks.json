@@ -1,0 +1,42 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "CMake: Compilar Projeto",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "--build",
+                "build"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "detail": "Compila o projeto usando o CMake. Executa 'cmake --build build'."
+        },
+        {
+            "label": "CMake: Configurar Projeto",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "-B",
+                "build"
+            ],
+            "detail": "Configura o projeto na pasta 'build'. Executa 'cmake -B build'."
+        },
+        {
+            "label": "CMake: Limpar Build",
+            "type": "shell",
+            "command": "rm",
+            "args": [
+                "-rf",
+                "build/"
+            ],
+            "detail": "Apaga a pasta 'build' para uma compilação limpa."
+        }
+    ]
+}

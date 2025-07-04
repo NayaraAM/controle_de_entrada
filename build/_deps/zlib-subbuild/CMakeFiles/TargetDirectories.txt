@@ -1,0 +1,3 @@
+/home/nayaradeandrade/ATR/build/_deps/zlib-subbuild/CMakeFiles/zlib-populate.dir
+/home/nayaradeandrade/ATR/build/_deps/zlib-subbuild/CMakeFiles/edit_cache.dir
+/home/nayaradeandrade/ATR/build/_deps/zlib-subbuild/CMakeFiles/rebuild_cache.dir
